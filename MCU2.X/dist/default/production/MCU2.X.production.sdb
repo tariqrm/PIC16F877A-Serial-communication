@@ -1,0 +1,90 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"20 C:\Users\tmuth\OneDrive\Desktop\Assignment\MCU2.X\main.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"37
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+"44
+[v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
+"51
+[v _main main `(v  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1059
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2519
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2747
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2816
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2846
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"3026
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"3035
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"3041
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"51 C:\Users\tmuth\OneDrive\Desktop\Assignment\MCU2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"62
+[v main@c_51 c `uc  1 a 1 24 ]
+"56
+[v main@countF countF `i  1 a 2 22 ]
+[v main@countE countE `i  1 a 2 20 ]
+[v main@countD countD `i  1 a 2 18 ]
+"89
+} 0
+"37
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+{
+[v UART_TxChar@ch ch `uc  1 p 1 wreg ]
+[v UART_TxChar@ch ch `uc  1 p 1 wreg ]
+[v UART_TxChar@ch ch `uc  1 p 1 0 ]
+"42
+} 0
+"44
+[v _UART_RxChar UART_RxChar `(uc  1 e 1 0 ]
+{
+"49
+} 0
+"20
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+[v UART_Init@baudRate baudRate `l  1 p 4 6 ]
+"35
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
