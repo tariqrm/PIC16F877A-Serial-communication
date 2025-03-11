@@ -15,7 +15,7 @@ This project demonstrates how to establish a reliable UART communication link be
 - **Simulation:** Validated using Proteus Simulation Software.
 - **Embedded Code:** Complete source code for both microcontrollers is provided.
 
-For a comprehensive description of the project’s design, methodology, detailed circuit diagrams, and complete code listings, please refer to the [report.docx](report.docx) file included in this repository.
+For a comprehensive description of the project’s design, methodology, detailed circuit diagrams, and complete code listings, please refer to the [report.docx](Report.docx) file included in this repository.
 
 ### Requirements
 
